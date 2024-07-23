@@ -44,7 +44,7 @@ video {
     position: absolute;
     display: flex;
     flex-direction: column;
-    margin-top: 70vh;
+    margin-top: 60vh;
     margin-left: 80vw;
 }
 
