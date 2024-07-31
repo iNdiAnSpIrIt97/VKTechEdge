@@ -70,6 +70,14 @@ video {
         width: 100%;
         justify-content: center;
     }
+    .social-icons i:hover {
+        transform: none; /* Disable hover effect */
+    }
+}
+@media (pointer: coarse) {
+    .social-icons i:hover {
+        transform: none; /* Disable hover effect for touch devices */
+    }
 }
 
 audio:not([controls]) {
